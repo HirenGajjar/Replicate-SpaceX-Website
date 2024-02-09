@@ -45,15 +45,6 @@ a {
     cursor: pointer;
 }
 
-.other {
-    width: 15%;
-    /* background-color: pink; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-
 .navbar .links {
     display: flex;
 }
@@ -69,6 +60,31 @@ a {
 }
 
 ul li a {
+    color: white;
+}
+
+.other {
+    width: 7%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.other .hamburger {
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.other .hamburger .line {
+    width: 18px;
+    height: 2px;
+    margin: 2px 0;
+    background-color: white;
+}
+
+.other .shop a {
     color: white;
 }
 
