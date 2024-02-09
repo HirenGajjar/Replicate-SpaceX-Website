@@ -92,9 +92,26 @@ main a {
     width: 100%;
 }
 
+.section p {
+    position: relative;
+    top: 68%;
+    display: inline;
+    left: 16%;
+}
+
+.section h2 {
+    position: relative;
+    top: 68%;
+    display: block;
+    width: max-content;
+    left: 16%;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
 .section a {
     position: relative;
-    top: 74%;
+    top: 72%;
     left: 16%;
     font-size: 14px;
     font-weight: 300;
@@ -115,7 +132,21 @@ main a {
 }
 
 .section-three {
-    background-image: url('https://live.staticflickr.com/1576/26405462060_ca9f2d22d9_b.jpg');
+    background-image: url('https://wp.technologyreview.com/wp-content/uploads/2021/12/48953946911_7dae1036a2_o.jpg');
+    object-fit: contain;
+    /* background-repeat: no-repeat;
+    background-position: top; */
+}
+
+.section-four {
+    background-image: url('https://images.pexels.com/photos/256152/pexels-photo-256152.jpeg');
     object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-five {
+    background-image: url('https://wp.technologyreview.com/wp-content/uploads/2021/12/48953946911_7dae1036a2_o.jpg');
+    object-fit: contain;
     background-repeat: no-repeat;
 }
