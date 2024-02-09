@@ -150,3 +150,39 @@ main a {
     object-fit: contain;
     background-repeat: no-repeat;
 }
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+}
+
+.footer-links {
+    padding: 25px 0;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 25px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.footer-links a:hover {
+    color: grey;
+}
+
+.footer-links p {
+    width: max-content;
+    margin: 0 12px;
+    display: inline;
+}
