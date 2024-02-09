@@ -16,7 +16,6 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 
@@ -29,7 +28,11 @@ a {
     justify-content: space-between;
     height: 5vh;
     text-transform: uppercase;
+    top: 0;
+    position: fixed;
     color: black;
+    background-color: transparent;
+    width: 100%;
     backdrop-filter: blur(5px);
 }
 
@@ -48,6 +51,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .navbar .links {
@@ -62,4 +66,56 @@ a {
 
 .links ul li {
     padding: 0 15px;
+}
+
+ul li a {
+    color: white;
+}
+
+
+/* main */
+
+main {
+    text-transform: uppercase;
+    color: white;
+}
+
+main a {
+    color: white;
+}
+
+
+/* Section  */
+
+.section {
+    height: 100vh;
+    width: 100%;
+}
+
+.section a {
+    position: relative;
+    top: 74%;
+    left: 16%;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px 50px;
+    border: 2px solid white;
+}
+
+.section-one {
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2024/02/53481198624-c7550a47be-k.jpg?w=2047');
+    object-fit: cover;
+}
+
+.section-two {
+    background-image: url('https://techcrunch.com/wp-content/uploads/2020/03/starlink1_vertical_18.jpg');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-three {
+    background-image: url('https://live.staticflickr.com/1576/26405462060_ca9f2d22d9_b.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
