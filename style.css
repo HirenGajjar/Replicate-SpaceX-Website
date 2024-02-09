@@ -100,6 +100,7 @@ ul li a {
 
 .sidebar-menu.show {
     display: block;
+    transition: ease-in-out 1s ease;
 }
 
 .sidebar-menu {
@@ -111,7 +112,7 @@ ul li a {
     width: 400px;
     text-align: right;
     text-transform: uppercase;
-    transition: transform 0.5s ease;
+    transition: ease-in-out 1s ease;
 }
 
 .sidebar-menu p {
@@ -184,9 +185,18 @@ main a {
     top: 72%;
     left: 16%;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     padding: 15px 50px;
     border: 2px solid white;
+}
+
+
+/* Button hover */
+
+.section a:hover {
+    color: black;
+    background-color: white;
+    transition: all ease-in-out 1s;
 }
 
 .section-one {
