@@ -63,6 +63,9 @@ ul li a {
     color: white;
 }
 
+
+/* Other nav and hamburger */
+
 .other {
     width: 7%;
     /* background-color: pink; */
@@ -86,6 +89,57 @@ ul li a {
 
 .other .shop a {
     color: white;
+}
+
+
+/* Sidebar menu */
+
+.sidebar-menu {
+    display: none;
+}
+
+.sidebar-menu.show {
+    display: block;
+}
+
+.sidebar-menu {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    width: 400px;
+    text-align: right;
+    text-transform: uppercase;
+    transition: transform 0.5s ease;
+}
+
+.sidebar-menu p {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    right: 60px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.sidebar-menu ul {
+    margin-top: 25%;
+}
+
+.sidebar-menu ul li a {
+    display: block;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    transition: all ease-in-out 0.5s;
+    margin: 0 45px;
+}
+
+.sidebar-menu ul li a:hover {
+    color: grey;
 }
 
 
